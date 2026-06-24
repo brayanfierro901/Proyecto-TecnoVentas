@@ -358,7 +358,7 @@ height: 70%;
 #cuatro div nav footer h2{
 text-align: center;
 padding: 4%;
-font-size: 2rem;
+font-size: 3rem;
 color: white;
 }
 
@@ -366,6 +366,7 @@ color: white;
 text-align: center;
 font-size: 1.4rem;
 color: white;
+margin-top: -1.5%;
 }
 
 .fotos{
@@ -420,7 +421,6 @@ justify-content: center;
 #cinco div{
 width: 80%;
 height: 80%;
-background-color: aqua;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -432,7 +432,6 @@ width: 30%;
 max-width: 200px;
 height: 80%;
 max-height: 400px;
-background-color: rgb(255, 97, 6);
 display: flex;
 flex-direction: column;
 }
@@ -443,7 +442,6 @@ flex-direction: column;
 width: 30%;
 max-width: 200px;
 height: 80%;
-background-color: rgb(238, 238, 22);
 }
 
 #footertres{
@@ -452,31 +450,34 @@ flex-direction: column;
 width: 30%;
 max-width: 200px;
 height: 80%;
-background-color: rgb(87, 235, 19);
 }
 
 #navuno{
 width: 100%;
-flex: 7;
-background-color: rgb(19, 41, 235);
+height: 76%;
 }
 
 #navdos{
 width: 100%;
-flex: 1;
-background-color: rgb(54, 59, 88);
+height: 10%;
+max-height: 25px;
 }
 
 #navtres{
 width: 100%;
-flex: 1;
-background-color: rgb(11, 61, 68);
+height: 10%;
+max-height: 20px;
 }
 
 #navcuatro{
 width: 100%;
-flex: 1;
-background-color: rgb(199, 19, 235);
+height: 12%;
+max-height: 45px;
+display: flex;
+flex-direction: row;
+gap: 5%;
+justify-content: center;
+align-items: center;
 }
 
 #perrofachero{
@@ -490,4 +491,141 @@ text-align: center;
 
 #navtres h4{
 text-align: center;
+}
+
+#circulos{
+width: 20%;
+max-width: 30px;
+height: 80%;
+background-color: rgb(241, 207, 15);
+border-radius: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#iconos{
+width: 80%;
+height: 80%;
+}
+
+#mainuno{
+width: 100%;
+height: 76%;
+}
+
+#maindos{
+width: 100%;
+height: 10%;
+max-height: 25px;
+}
+
+#maintres{
+width: 100%;
+height: 10%;
+max-height: 20px;
+}
+
+#maincuatro{
+width: 100%;
+height: 12%;
+max-height: 45px;
+display: flex;
+flex-direction: row;
+gap: 5%;
+justify-content: center;
+align-items: center;
+}
+
+#maindos h3{
+text-align: center;
+}
+
+#maintres h4{
+text-align: center;
+}
+
+#headeruno{
+width: 100%;
+height: 76%;
+}
+
+#headerdos{
+width: 100%;
+height: 10%;
+max-height: 25px;
+}
+
+#headertres{
+width: 100%;
+height: 10%;
+max-height: 20px;
+}
+
+#headercuatro{
+width: 100%;
+height: 12%;
+max-height: 45px;
+display: flex;
+flex-direction: row;
+gap: 5%;
+justify-content: center;
+align-items: center;
+}
+
+#headerdos h3{
+text-align: center;
+}
+
+#headertres h4{
+text-align: center;
+}
+
+#seis{
+width: 100%;
+background-color: rgb(254, 196, 0);
+height: 45%;
+flex-direction: row;
+position: relative;
+}
+
+#armi{
+height: 100%;
+width: 100%;
+opacity: 50%;
+
+}
+
+#atencionuno{
+position: absolute;
+top: 50%;
+left: 50%;
+background-color: blue;
+height: 40%;
+width: 20%;
+max-width: 160px;
+transform: translate(-50%, -50%);
+}
+
+#atenciondos{
+background-color: aquamarine;
+position: absolute;
+top: 50%;
+left: 25%;
+height: 40%;
+width: 20%;
+max-width: 160px;
+transform: translate(-50%, -50%);
+
+}
+
+#atenciontres{
+background-color: rgb(25, 212, 50);
+position: absolute;
+top: 50%;
+left: 75%;
+height: 40%;
+width: 20%;
+max-width: 160px;
+transform: translate(-50%, -50%);
 }
