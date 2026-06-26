@@ -1,3 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#ffc801;
+    width: 100%;
+}
+
+/* Barra de navegacion */
+.navbar{
+    background:#ebad00;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:12px 40px;
+}
+
+/* Logo */
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:black;
+}
+
+.logo i{
+    font-size:28px;
+}
+
+.logo h2{
+    font-size:13px;
+    letter-spacing:1px;
+}
+
+.logo p{
+    font-size:10px;
+    color:black;
+}
+
+/* Menú */
+.menu{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+.menu a{
+    color:black;
+    text-decoration:none;
+    font-size:14px;
+    transition:.3s;
+}
+
+.menu a:hover{
+    color:#333;
+}
+
+/* Buscador */
+.search-box{
+    display:flex;
+    background-color: #ffc801;
+}
+
+.search-box input{
+    border:none;
+    outline:none;
+    padding:7px 10px;
+    width:140px;
+    background:#F8C106;
+    color:black;
+}
+
+.search-box input::placeholder{
+    color:black;
+}
+
+.search-box button{
+    border:none;
+    width:38px;
+    background:#0f9ea6;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.search-box button:hover{
+    background:#087a80;
+}
+
 .servicios{
     padding: 80px 10%;
     background: yellow;
@@ -10,7 +103,7 @@
 }
 
 .contenedor{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     text-align: center;
     cursor: pointer;
